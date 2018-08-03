@@ -14,7 +14,7 @@ class AK_RedirectChains_Adminhtml_RedirectsController extends Mage_Adminhtml_Con
     }
 
     /**
-     *
+     * Update Redirect
      */
     public function saveAction()
     {

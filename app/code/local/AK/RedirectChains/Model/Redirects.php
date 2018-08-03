@@ -92,6 +92,10 @@ class AK_RedirectChains_Model_Redirects extends Mage_Core_Model_Abstract
         }
     }
 
+    /**
+     * @param $store
+     * @return string
+     */
     protected function getBaseUrlNoTrailingSlash($store)
     {
         $baseUrl = Mage::app()->getStore($store)->getBaseUrl(Mage_Core_Model_Store::URL_TYPE_LINK);
@@ -99,6 +103,9 @@ class AK_RedirectChains_Model_Redirects extends Mage_Core_Model_Abstract
         return $baseUrl;
     }
 
+    /**
+     * @return array
+     */
     public function getStores()
     {
         $storesArray = [];
