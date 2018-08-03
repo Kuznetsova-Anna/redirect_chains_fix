@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <AK_RedirectChains>
+            <active>true</active>
+            <codePool>local</codePool>
+        </AK_RedirectChains>
+    </modules>
+</config>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<layout>
+    <redirectchains_admin_adminhtml_redirects_index>
+        <reference name="content">
+            <block type="redirectchains/adminhtml_edit" name="redirectschain_edit"
+                   template="redirectschain/process.phtml">
+                <block type="redirectchains/adminhtml_form" name="form"/>
+            </block>
+        </reference>
+    </redirectchains_admin_adminhtml_redirects_index>
+</layout>
